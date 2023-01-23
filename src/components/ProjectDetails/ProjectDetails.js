@@ -74,14 +74,14 @@ const ProjectDetails = () =>{
             </div>
 
             {/* Other Projects  */}
-            <div className="container" style={{ paddingRight: '0px'}}>
+            {/* <div className="container" style={{ paddingRight: '0px'}}>
                 <div className={`row mt-3 ${styles.tBody}`}>
                     <p className={styles.pTitle}>Other project</p>
                     <div>
                         <OtherProjects />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

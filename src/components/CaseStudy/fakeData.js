@@ -12,8 +12,8 @@ import img101 from '../../assets/caseStudy/Render1/img101.jpeg';
 const fakeData = [
     {
         id: 1,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'Bungalow',
+        title: 'Attic Bungalow  ',
         img: img1,
         category: 'Bungalow'
     },
