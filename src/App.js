@@ -5,7 +5,7 @@ import './App.css';
 import routes from './router/route';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import { Analytics } from '@vercel/analytics/react';
 function App() {
   // Animation global setting 
   AOS.init({
@@ -42,6 +42,7 @@ function App() {
               ))
             }
           </Routes>
+          <Analytics />
         </div>
       </div>
     </Router>
