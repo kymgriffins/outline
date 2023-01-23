@@ -1,7 +1,13 @@
-import img1 from '../../assets/caseStudy/1.png';
-import img2 from '../../assets/caseStudy/2.png';
 import img3 from '../../assets/caseStudy/3.png';
 import img4 from '../../assets/caseStudy/4.png';
+import mansionatte1 from '../../assets/caseStudy/mansionatte1.jpg';
+import mansionatte2 from '../../assets/caseStudy/mansionatte2.jpg';
+import img1 from '../../assets/caseStudy/AtticBungalow/img1.jpg';
+import img2 from '../../assets/caseStudy/AtticBungalow/img2.jpg';
+import img101 from '../../assets/caseStudy/Render1/img101.jpeg';
+
+
+
 
 const fakeData = [
     {
@@ -9,42 +15,57 @@ const fakeData = [
         designation: 'Marketing, SEO',
         title: 'Dicta Sunt Explicabo',
         img: img1,
-        category: 'financial'
+        category: 'Bungalow'
     },
     {
         id: 2,
-        designation: 'Marketing, SEO',
+        designation: 'Attic Bungalow',
         title: 'Dicta Sunt Explicabo',
         img: img2,
-        category: 'human resources'
+        category: 'Bungalow'
     },
     {
         id: 3,
         designation: 'Marketing, SEO',
         title: 'Dicta Sunt Explicabo',
         img: img3,
-        category: 'start up'
+        category: 'Bungalow'
     },
     {
         id: 4,
         designation: 'Marketing, SEO',
         title: 'Dicta Sunt Explicabo',
         img: img4,
-        category: 'strategy'
+        category: 'Residential'
     },
     {
         id: 5,
         designation: 'Marketing, SEO',
         title: 'Dicta Sunt Explicabo',
         img: img1,
-        category: 'financial'
+        category: 'villa'
     },
     {
         id: 6,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
-        img: img2,
-        category: 'human resources'
-    }
+        designation: 'Maisonette',
+        title: 'Flat Roof',
+        img: mansionatte1,
+        category: 'maisonette'
+    },
+    {
+        id: 7,
+        designation: 'Maisonette',
+        title: 'Flat Roof',
+        img: mansionatte2,
+        category: 'maisonette'
+    },
+    // {
+    //     id: 8,
+    //     designation: 'Maisonette',
+    //     title: 'Flat Roof',
+    //     img: img101,
+    //     category: 'maisonette'
+    // },
+
 ]
 export default fakeData;

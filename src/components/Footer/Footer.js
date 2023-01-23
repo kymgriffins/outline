@@ -11,10 +11,9 @@ const Footer = () =>{
                 <div className="container" >
                     <div className="row">
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.logo}>Miritus</p>
-                            <p className={styles.text}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
-                            <p className={styles.text}>Lorem ipsum dolor sit amet</p>
-                            <p className={styles.text}>Lorem ipsum dolor sit amet</p>
+                            <p className={styles.logo}>Outline Designs</p>
+                            <p className={styles.text}>Bringing your vision to life, one outline at a time </p>
+                          
                             <div className={styles.social_logo}>
                                 <img src={fb} alt="fb" className={styles.img}/>
                                 <img src={linkdin} alt="in" className={styles.img}/>
@@ -24,21 +23,23 @@ const Footer = () =>{
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Services</p>
-                            <p className={styles.text}>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                            <p className={styles.text}>deanna.curtis@example.com</p>
-                            <p className={styles.text}>(671) 555-0110</p>
+                            <p className={styles.text}>Architectural Designs</p>
+                            <p className={styles.text}>Consultancy</p>
+                            <p className={styles.text}>Construction</p>
 
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Head Office</p>
-                            <p className={styles.text}>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                            <p className={styles.text}>deanna.curtis@example.com</p>
-                            <p className={styles.text}>(671) 555-0110</p>
+                            <p className={styles.text}>Nairobi, Kenya</p>
+                            <p className={styles.text}>outlinedesignsltd@gmail.com</p>
+                            <p className={styles.text}>(254) 718-275-068</p>
+                            <p className={styles.text}>(254) 797-777-169</p>
+                            
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.head}>Opening Hour</p>
+                            <p className={styles.head}>Opening Hours</p>
                             <p className={styles.text}>Mon - Sat : 8:00 - 17:00</p>
                             <p className={styles.text}>Sun : Closed</p>
 
@@ -50,7 +51,7 @@ const Footer = () =>{
 
 
             <div style={{backgroundColor: '#2b2b2b', borderTop: 'solid 1px #707070'}}>
-                    <p className={styles.bottom}>Copyright © 2020. All right reserved</p>
+                    <p className={styles.bottom}>Copyright © 2023. All right reserved</p>
             </div>
         </>
     )

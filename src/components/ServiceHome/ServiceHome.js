@@ -9,13 +9,13 @@ const ServiceHome = (props) => {
             <img src={props.icon} alt="" className={styles.img} />
             <p className={styles.heading}>{props.heading}</p>
             <p className={styles.text}>{props.content}</p>
-            <Link to={`/individualService?id=${props.id}`}>
+            {/* <Link to={`/individualService?id=${props.id}`}>
                 <HiOutlineArrowNarrowRight
                     className={styles.to}
                     size="2rem"
                     color="#ff4c0a"
                 />
-            </Link>
+            </Link> */}
         </div>
     );
 };

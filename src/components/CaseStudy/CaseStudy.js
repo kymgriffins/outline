@@ -26,10 +26,12 @@ const CaseStudy = () =>{
             </div>
             <div className={`${styles.grp_btn}`} data-aos='fade'>
                 <p onClick={()=>{ setData(fakeData); activeNav(0) }} className={`${styles.filter} ${active[0] ? styles.active : null}`}>ALL</p>
-                <p onClick={()=>{ filterData('financial'); activeNav(1) }} className={`${styles.filter} ${active[1] ? styles.active : null}`}>FINANCIAL</p>
-                <p onClick={()=>{ filterData('human resources'); activeNav(2) }} className={`${styles.filter} ${active[2] ? styles.active : null}`}>HUMAN RESOURCES</p>
-                <p onClick={()=>{ filterData('start up'); activeNav(3) }} className={`${styles.filter} ${active[3] ? styles.active : null}`}>START UP</p>
-                <p onClick={()=>{ filterData('strategy'); activeNav(4) }} className={`${styles.filter} ${active[4] ? styles.active : null}`}>STRATEGY</p>
+                <p onClick={()=>{ filterData('Apartments'); activeNav(1) }} className={`${styles.filter} ${active[1] ? styles.active : null}`}>APARTMENTS</p>
+                <p onClick={()=>{ filterData('Bungalow'); activeNav(2) }} className={`${styles.filter} ${active[2] ? styles.active : null}`}>BUNGALOW</p>
+                <p onClick={()=>{ filterData('Residential'); activeNav(3) }} className={`${styles.filter} ${active[3] ? styles.active : null}`}>RESIDENTIALS</p>
+                <p onClick={()=>{ filterData('villa'); activeNav(4) }} className={`${styles.filter} ${active[4] ? styles.active : null}`}>VILLA</p>
+                <p onClick={()=>{ filterData('maisonette'); activeNav(5) }} className={`${styles.filter} ${active[5] ? styles.active : null}`}>MANSIONATTE</p>
+
             </div>
 
             <div className='row mb-2'>

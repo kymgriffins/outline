@@ -23,9 +23,9 @@ const Home = () => {
       </section>
 
       {/* Why Choosing Us Section  */}
-      <section>
+      {/* <section>
         <ChoosingUs />
-      </section>
+      </section> */}
       
       {/* Services Section  */}
       <section>
@@ -38,14 +38,14 @@ const Home = () => {
       </section>
 
       {/* Real Section  */}
-      <section>
+      {/* <section>
         <Real />
-      </section>
+      </section> */}
 
       {/* Testimonial Section  */}
-      <section>
+      {/* <section>
         <Testimonial />
-      </section>
+      </section> */}
 
       {/* Footer Section  */}
       <section>
