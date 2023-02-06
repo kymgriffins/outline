@@ -1,8 +1,9 @@
 .imgbox {
     height: 94vh;
-    background: url('../../assets/2img.jpg');
+    background: url('../../assets/aboutUs/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 .center{
     position: absolute;

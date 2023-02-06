@@ -18,12 +18,12 @@ const CaseStudy = () =>{
     }
 
     return(
-        <div className={`container ${styles.contain} overflow-hidden`}>
-            <p className={styles.head} data-aos='slide-right'>WHAT WE DO</p>
-            <div data-aos='slide-left'>
+        <div className={`container ${styles.contain} overflow-hidden pt-5`}>
+            {/* <p className={styles.head} data-aos='slide-right'>WHAT WE DO</p> */}
+            {/* <div data-aos='slide-left'>
                 <p className={styles.our}>OUR CASE&nbsp;</p>
                 <p className={styles.study}>STUDIES</p>
-            </div>
+            </div> */}
             <div className={`${styles.grp_btn}`} data-aos='fade'>
                 <p onClick={()=>{ setData(fakeData); activeNav(0) }} className={`${styles.filter} ${active[0] ? styles.active : null}`}>ALL</p>
                 <p onClick={()=>{ filterData('maisonette'); activeNav(5) }} className={`${styles.filter} ${active[5] ? styles.active : null}`}>MANSIONATTE</p>

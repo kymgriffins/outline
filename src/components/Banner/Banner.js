@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <>
         <div className={styles.imgbox}>
-            <div className={`${styles.center} overflow-hidden`}>
+            <div className={`${styles.center} overflow-hidden pt-5`}>
                 <p data-aos='fade-down' className={styles.text}>Bringing your vision to life,
 one outline
 at a time</p>

@@ -4,8 +4,9 @@ import mansionatte1 from '../../assets/caseStudy/mansionatte1.jpg';
 import mansionatte2 from '../../assets/caseStudy/mansionatte2.jpg';
 import img1 from '../../assets/caseStudy/AtticBungalow/img1.jpg';
 import img2 from '../../assets/caseStudy/AtticBungalow/img2.jpg';
-import img101 from '../../assets/caseStudy/Render1/img101.jpeg';
-
+import img101 from "../../assets/Mansion/image01.jpeg"
+import img102 from "../../assets/Mansion/image02.jpeg"
+import img103 from "../../assets/Mansion/image03.jpeg"
 
 
 
@@ -14,7 +15,7 @@ const fakeData = [
         id: 1,
         designation: 'Bungalow',
         title: 'Attic Bungalow  ',
-        img: img1,
+        img: img101,
         category: 'Bungalow'
     },
     {
@@ -28,14 +29,14 @@ const fakeData = [
         id: 3,
         designation: 'Marketing, SEO',
         title: 'Dicta Sunt Explicabo',
-        img: img3,
+        img: img102,
         category: 'Bungalow'
     },
     {
         id: 4,
         designation: 'Marketing, SEO',
         title: 'Dicta Sunt Explicabo',
-        img: img4,
+        img: img103,
         category: 'Residential'
     },
     {

@@ -18,9 +18,9 @@ const Home = () => {
       </section>
 
       {/* About Us Section */}
-      <section>
+      {/* <section>
         <AboutUsHome />
-      </section>
+      </section> */}
 
       {/* Why Choosing Us Section  */}
       {/* <section>
@@ -28,9 +28,9 @@ const Home = () => {
       </section> */}
       
       {/* Services Section  */}
-      <section>
+      {/* <section>
         <ServicesHome />
-      </section>
+      </section> */}
 
       {/* Case Study Section  */}
       <section>

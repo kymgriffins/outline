@@ -2,6 +2,7 @@ import React from "react";
 import styles from './Top.module.css';
 import img1 from '../../../assets/aboutUs/img1.png';
 import img2 from '../../../assets/aboutUs/img2.png';
+import img3 from '../../../assets/Mansion/image01.jpeg';
 
 const Top =()=>{
     return(

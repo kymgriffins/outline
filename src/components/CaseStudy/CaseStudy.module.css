@@ -49,7 +49,7 @@
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../assets/caseStudy/gradient.png"), linear-gradient(#eb01a5, #d13531);
+    /* background-image: url("../../assets/caseStudy/gradient.png"), linear-gradient(#eb01a5, #d13531); */
     border-radius: 10px;
     cursor: pointer;
 }
