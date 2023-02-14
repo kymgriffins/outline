@@ -37,9 +37,9 @@ const CaseStudy = () =>{
             <div className='row mb-2'>
                 {
                     data.map((x) =>(
-                        <div key={x.id} className={`col-md-4 col-sm-6 mt-4`} data-aos='fade'>
+                        <div key={x.id} className={`col-md-6 col-sm-6 mt-4`} data-aos='fade'>
                             <Link to={`/projectDetails?id=${x.id}`} style={{textDecoration:"none"}}>
-                                <div className={styles.img} style={{backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0), rgba(5, 25, 81, .55)), url(${x.img})`}}>
+                                <div className={styles.img} style={{backgroundImage: ` url(${x.img})`}}>
                                     <p className={styles.imgText1} >{x.designation}</p>
                                     <p className={styles.imgText2}>{x.title}</p>
                                 </div>

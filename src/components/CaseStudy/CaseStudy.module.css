@@ -56,20 +56,21 @@
 .img:hover{
     transform: scale(1.04);
     transition: .5s;
+    color:#ff4c0a
 }
 .imgText1{
     font-family: 'Poppins';
     font-size: 14px;
-    color: white;
+    color: black;
     text-align: left;
-    padding-top: 74%;
+    padding-top: 60%;
     padding-left: 30px;
     margin-bottom: 2px;
 }
 .imgText2{
     font-family: 'Poppins';
     font-size: 22px;
-    color: white;
+    color: black;
     font-weight: bold;
     text-align: left;
     padding-left: 30px;
