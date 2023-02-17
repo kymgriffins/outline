@@ -8,7 +8,7 @@ const Services = () => {
         <div className={`container ${styles.contain} overflow-hidden pb-2`}>
                 <p data-aos='slide-right' className={styles.heading}>Services</p>
             <div>
-                <p data-aos='slide-left' className={`mx-auto ${styles.subHeading}`}>Modernize your workflow and maximize result</p>
+                <p data-aos='slide-left' className={`mx-auto ${styles.subHeading}`}>Capabilities & Services </p>
             </div>
 
             <div className={`row ${styles.cont}`}>

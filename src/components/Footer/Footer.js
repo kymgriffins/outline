@@ -3,6 +3,7 @@ import styles from './Footer.module.css';
 import fb from '../../assets/home/facebook.png';
 import linkdin from '../../assets/home/linkdin.png';
 import insta from '../../assets/home/insta.png';
+import { SocialIcon } from 'react-social-icons';
 
 const Footer = () =>{
     return (
@@ -15,9 +16,17 @@ const Footer = () =>{
                             <p className={styles.text}>Bringing your vision to life, one outline at a time </p>
                           
                             <div className={styles.social_logo}>
-                                <img src={fb} alt="fb" className={styles.img}/>
+                            <SocialIcon network="twitter" url="https://twitter.com/DesignsOutline?t=DU_mfSAgeM5OfTYB38mVTg&s=08"  style={{ height: 50, width: 50, p:2}} />
+                            <SocialIcon network="facebook" url="https://www.facebook.com/profile.php?id=100072403491575&sk=about"  style={{ height: 50, width: 50 }} />
+
+                            <SocialIcon network="tiktok" url="https://twitter.com/jaketrent"  style={{ height: 50, width: 50 }} />
+
+                            <SocialIcon network="whatsapp" url="https://twitter.com/jaketrent"  style={{ height: 50, width: 50 }} />
+
+
+                                {/* <img src={fb} alt="fb" className={styles.img}/>
                                 <img src={linkdin} alt="in" className={styles.img}/>
-                                <img src={insta} alt="insta" className={styles.img}/>
+                                <img src={insta} alt="insta" className={styles.img}/> */}
                             </div>
                         </div>
 

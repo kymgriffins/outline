@@ -13,15 +13,15 @@ import img103 from "../../assets/Mansion/image03.jpeg"
 const fakeData = [
     {
         id: 1,
-        designation: 'Bungalow',
-        title: 'Attic Bungalow  ',
+        designation: 'Maisonette',
+        title: 'Maisonette',
         img: img101,
-        category: 'Bungalow'
+        category: 'Maisonette'
     },
     {
         id: 2,
         designation: 'Attic Bungalow',
-        title: 'Dicta Sunt Explicabo',
+        title: 'Bungalow',
         img: img2,
         category: 'Bungalow'
     },
@@ -32,27 +32,27 @@ const fakeData = [
         img: img102,
         category: 'Bungalow'
     },
-    {
-        id: 4,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
-        img: img103,
-        category: 'Residential'
-    },
-    {
-        id: 5,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
-        img: img1,
-        category: 'villa'
-    },
-    {
-        id: 6,
-        designation: 'Maisonette',
-        title: 'Flat Roof',
-        img: mansionatte1,
-        category: 'maisonette'
-    },
+    // {
+    //     id: 4,
+    //     designation: 'Marketing, SEO',
+    //     title: 'Dicta Sunt Explicabo',
+    //     img: img103,
+    //     category: 'Residential'
+    // },
+    // {
+    //     id: 5,
+    //     designation: 'Marketing, SEO',
+    //     title: 'Dicta Sunt Explicabo',
+    //     img: img1,
+    //     category: 'villa'
+    // },
+    // {
+    //     id: 6,
+    //     designation: 'Maisonette',
+    //     title: 'Flat Roof',
+    //     img: mansionatte1,
+    //     category: 'maisonette'
+    // },
     {
         id: 7,
         designation: 'Maisonette',

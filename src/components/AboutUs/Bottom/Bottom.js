@@ -5,7 +5,7 @@ import fakeData from './fakeData';
 const Bottom = () =>{
     return(
         <>
-            <div className={`container ${styles.contain} overflow-hidden`}>
+            {/* <div className={`container ${styles.contain} overflow-hidden`}>
                 {
                     fakeData.map((x, idx)=>(
                         idx%2 === 0?
@@ -30,7 +30,7 @@ const Bottom = () =>{
                         </div>
                     ))
                 }
-            </div>
+            </div> */}
         </>
     )
 }

@@ -7,7 +7,7 @@ import logo3 from '../../../assets/aboutUs/middle3.png';
 const Middle = () =>{
     return(
         <div style={{backgroundColor: '#f8f8f8'}} className='overflow-hidden'>
-            <div className={`container ${styles.contain}`}>
+            {/* <div className={`container ${styles.contain}`}>
                 <p data-aos='fade-down-right' data-aos-offset="170" className={styles.mainHead}>Lorem ipsum dolor sit amet</p>
                 <p data-aos='fade-up-left' data-aos-offset="170" className={styles.mainContent}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
 
@@ -37,7 +37,7 @@ const Middle = () =>{
                     </div>
 
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
