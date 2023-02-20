@@ -2,18 +2,23 @@ import seo from '../../assets/home/seo.png';
 import web from '../../assets/home/web.png';
 import seo1 from '../../assets/individualService/Image.png';
 import seo2 from '../../assets/individualService/Image_2.png';
-
+import { FaSearchLocation } from "react-icons/fa";
+// import { FaSearchLocation } from "react-icons/fa";
+// import { FaSearchLocation } from "react-icons/fa";
+// import { FaSearchLocation } from "react-icons/fa";
+// import { FaSearchLocation } from "react-icons/fa";
+// import { FaSearchLocation } from "react-icons/fa";
 const data = [
     {
         id: 1,
         heading: 'Acquisition & Planning',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
         to: '/',
-        icon: seo,
+        icon: FaSearchLocation,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
-                img: seo1,
+                img: FaSearchLocation,
                 content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam'
             },
             {

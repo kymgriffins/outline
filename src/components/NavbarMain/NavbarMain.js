@@ -76,28 +76,17 @@ const NavbarMain = () => {
               >
                 About us
               </NavLink>
-
-              <NavDropdown
-                show={show}
-                onMouseEnter={showDropdown}
-                onMouseLeave={hideDropdown}
-                className={`nav-link ${styles.drop}`}
-                title={
-                  <Link to="/services" style={{textDecoration:'none'}} className={styles.dropicon} onClick={() => {handleActiveNav(2); closeNav()}}>
-                    <span className={`${styles.nav_text} my-auto ${activeNav[2] ? styles.active : ""}`}>
-                      Services
-                    </span>
-                  </Link>
-                }
-                id="basic-nav-dropdown"
+              <NavLink
+                to="/services"
+                className={`${styles.nav_text} nav-link ${activeNav[1] ? styles.active : ""}`}
+                style={{ marginTop: "8px" }}
+                onClick={() => {handleActiveNav(2); closeNav()}}
               >
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/sMediaService" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Social Media Marketing</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Quality Assurance</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Cloud and IoT Based Solutions</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>IT Consultancy</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>AI Solutions</NavLink></NavDropdown.Item>
+                Services
+              </NavLink>
 
-              </NavDropdown>
+
+            
 
               
               <NavLink

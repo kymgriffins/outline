@@ -27,10 +27,10 @@ const fakeData = [
     },
     {
         id: 3,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'Maisonette',
+        title: 'Maisonette',
         img: img102,
-        category: 'Bungalow'
+        category: 'Maisonette'
     },
     // {
     //     id: 4,

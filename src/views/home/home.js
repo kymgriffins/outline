@@ -38,9 +38,9 @@ const Home = () => {
       </section>
 
       {/* Real Section  */}
-      <section>
+      {/* <section>
         <Real />
-      </section>
+      </section> */}
 
       {/* Testimonial Section  */}
       {/* <section>
